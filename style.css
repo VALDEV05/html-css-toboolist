@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/* section */
 body{
     background-color: #F6F8F9;
     font-family: 'Arial';
@@ -11,4 +12,99 @@ body{
 header{
     background-color: white;
     padding: .75rem 1.5rem;
+}
+main{
+    width: 85%;
+    margin: 1rem auto;
+    background-color: #ffffff ;
+}
+/* main selectors */
+li{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.btn{
+    padding: 0.25rem .75rem;
+    font-size:0.75rem;
+    border-radius: 0.25rem;
+    border:none;
+    background-color: transparent;
+}
+.checkmark{
+    border: 1px solid #64C0A9;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: .65rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    color: #64C0A9;
+    margin-right: 8px;
+}
+.cross{
+    border: 1px solid #EB5952;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 0.65rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+    color: #EB5952;
+    margin-right: 8px;
+}
+.badge{
+    font-size: 0.55rem;
+    border-radius: 0.75rem;
+    padding: 0.35rem 0.55rem;
+    color: white;
+}
+section{
+    padding: 1rem 3rem;
+}
+/* sub-main selector */
+.logo{
+    vertical-align: middle;
+}
+.logo_text{
+    vertical-align: middle;
+    display: inline-block;
+}
+.btn-primary{
+    background-color: #47ADF1;
+    color: white;
+}
+.btn-outline{
+    background-color: white;
+    border: 1px solid #C7CDD2;
+    color:#C7CDD2;
+}
+.tasks_controls{
+    border-bottom: 2px solid #F6F8F9;
+    padding: .75rem 3rem .5rem;
+}
+.list-none{
+    list-style-type: none;
+}
+.bg-primary{
+    background-color: #47ADF1;
+}
+.bg-purple{
+    background-color: #9C72E4 ;
+    
+}
+.bg-green{
+    background-color: #64C0A9;
+}
+.bg-orange{
+    background-color: #F29E33;
+}
+.bg-fucsia{
+    background-color: #D863A1;
+}
+.bg-lightgreen{
+    background-color: #B0C926;
 }
